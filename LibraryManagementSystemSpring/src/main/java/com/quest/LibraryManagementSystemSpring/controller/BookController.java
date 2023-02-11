@@ -77,7 +77,7 @@ public class BookController
 		}
 		else
 		{
-			return "redirect:/error/No Teacher With ID : "+id+" Found";
+			return "redirect:/error/No Book With ID : "+id+" Found";
 		}
 		model.addAttribute("book",book);
 		return "Update-Book";
