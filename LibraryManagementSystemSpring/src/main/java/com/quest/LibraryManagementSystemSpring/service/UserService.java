@@ -27,8 +27,8 @@ public class UserService {
 		userrepo.save(user);
 	}
 
-	public List<User> findByfirstNameLikeOrlastNameLikeOremailLike(String firstname, String lastname, String email){
-	    List<User> user = userrepo.findByfirstNameLikeOrlastNameLikeOremailLike(firstname, lastname,  email);
+	public List<User> findByFirstNameLikeOrLastNameLikeOrEmailLike(String firstname, String lastname, String email){
+	    List<User> user = userrepo.findByFirstNameLikeOrLastNameLikeOrEmailLike(firstname, lastname,  email);
 	    return user;
 	}
 

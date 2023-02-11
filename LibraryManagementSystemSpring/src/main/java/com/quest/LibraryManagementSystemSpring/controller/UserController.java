@@ -87,7 +87,7 @@ public class UserController {
 	@GetMapping("search")
 	public String tosearchBook(@RequestParam String value ,Model model)
 	{
-		List<User> users = userservice.findByfirstNameLikeOrlastNameLikeOremailLike("%"+value+"%", "%"+value+"%", "%"+value+"%");
+		List<User> users = userservice.findByFirstNameLikeOrLastNameLikeOrEmailLike("%"+value+"%", "%"+value+"%", "%"+value+"%");
 		model.addAttribute("users",users);
 		return "Searched-Users";
 	}
@@ -96,7 +96,7 @@ public class UserController {
     public String searchBook(@RequestParam String value ,Model model) 
 		{
 			System.out.println("Inside prePostMapping");
-			List<User> users = userservice.findByfirstNameLikeOrlastNameLikeOremailLike("%"+value+"%", "%"+value+"%", "%"+value+"%");
+			List<User> users = userservice.findByFirstNameLikeOrLastNameLikeOrEmailLike("%"+value+"%", "%"+value+"%", "%"+value+"%");
 			model.addAttribute("users", users);
 			System.out.println("Inside PostMapping");
 			return "Searched-Users";

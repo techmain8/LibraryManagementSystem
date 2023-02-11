@@ -8,5 +8,5 @@ import com.quest.LibraryManagementSystemSpring.models.User;
 
 
 public interface UserRepo extends JpaRepository<User, Integer> {
-	public List<User> findByfirstNameLikeOrlastNameLikeOremailLike(String firstname, String lastname, String email);
+	public List<User> findByFirstNameLikeOrLastNameLikeOrEmailLike(String firstname, String lastname, String email);
 }

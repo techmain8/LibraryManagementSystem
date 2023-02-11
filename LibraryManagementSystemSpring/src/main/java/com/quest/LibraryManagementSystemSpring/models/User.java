@@ -33,7 +33,7 @@ public class User
 	@Column(nullable = false)
 	private String password;
 	
-	@Column(nullable = false)
+	@Column(nullable = true)
     private String address;
     
 	public int getId() {
@@ -46,7 +46,7 @@ public class User
 		return firstName;
 	}
 	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+		this.firstName=firstName;
 	}
 	public String getLastName() {
 		return lastName;

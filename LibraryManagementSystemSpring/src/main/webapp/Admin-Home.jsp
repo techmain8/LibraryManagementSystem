@@ -58,8 +58,7 @@ p {
 		<p>Things You Can Do Here:
 		<ul>
 			<li><a href="book"><button>Books</button></a></li>
-			<li><a href="author"><button>Authors</button></a></li>
-			<li><a href="User"><button>Users</button></a></li>
+			<li><a href="user"><button>Users</button></a></li>
 		</ul>
 	</nav>
 </body>

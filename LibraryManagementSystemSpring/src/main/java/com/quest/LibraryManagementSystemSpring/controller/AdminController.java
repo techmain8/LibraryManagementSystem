@@ -37,7 +37,7 @@ public class AdminController
 	@GetMapping("/user")
 	public String showUsersPage()
 	{
-		return "Users";
+		return "Manage-Users";
 	}
 	
 }
