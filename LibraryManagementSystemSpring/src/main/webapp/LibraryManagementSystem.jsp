@@ -55,11 +55,14 @@ p {
     <p>Login Successful</p>
     <nav>
         <a href="/"><button>LogOut</button></a>
+        <a href="update-user"><button>Update User</button></a>
         <hr> 
+        
         <p>Things You Can Do Here:</p>
             <ul>
                 <li><a href="books"><button>Books</button></a></li>
                 <li><a href="user"><button>Users</button></a></li>
+                
             </ul>
     </nav>
 </body>

@@ -84,7 +84,6 @@ button {
 	<br>
 	<nav>
 		<a href="/"><button style="size: 50px;">Back to Home</button></a> 
-		<a href="update-user"><button>Update User</button></a>
 	</nav>
 </body>
 </html>
